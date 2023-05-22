@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Install app from shopify</name>
+   <tag></tag>
+   <elementGuidId>8d48685c-2edd-47ea-8b1a-5b38f490f522</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Install app' or . = 'Install app') and @id = 'proceed_cta']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.Polaris-Button_r99lw.Polaris-Button--primary_7k9zs</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>	</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Polaris-Button_r99lw Polaris-Button--primary_7k9zs</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Install app</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;AppFrame&quot;)/div[@class=&quot;Polaris-Frame_2qi9y Polaris-Frame--hasNav_wlvjn Polaris-Frame--hasTopBar_1162r&quot;]/main[@id=&quot;AppFrameMain&quot;]/div[@class=&quot;Polaris-Frame__Content_xd1mk&quot;]/div[@class=&quot;o7cYL&quot;]/div[@class=&quot;Polaris-Page_yisnh&quot;]/div[@class=&quot;Polaris-Box_375yx&quot;]/div[@class=&quot;Polaris-Page-Header--noBreadcrumbs_bdstf Polaris-Page-Header--mediumTitle_bfol6&quot;]/div[@class=&quot;Polaris-Page-Header__Row_375v7&quot;]/div[@class=&quot;Polaris-Page-Header__RightAlign_1ok1p&quot;]/div[@class=&quot;Polaris-Page-Header__PrimaryActionWrapper_w8or9&quot;]/div[@class=&quot;Polaris-Box_375yx Polaris-Box--printHidden_15ag0&quot;]/button[@class=&quot;Polaris-Button_r99lw Polaris-Button--primary_7k9zs&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>proceed_cta</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[12]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='AppFrameMain']/div/div/div/div/div/div/div[2]/div[2]/div/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Install'])[1]/following::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amai PreOrder Manager + Notify'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/button</value>
+   </webElementXpaths>
+</WebElementEntity>
