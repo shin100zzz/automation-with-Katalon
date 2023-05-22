@@ -6,15 +6,19 @@
    <elementGuidId>be42470d-8d7b-4b5a-832b-6a5111801dab</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p.Polaris-Text--root_yj4ah.Polaris-Text--headingMd_lwjt4 > a.Polaris-Link_yj5sy.Polaris-Link--removeUnderline_adav6</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Shopify App Store' or . = 'Shopify App Store')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='PolarisPortalsContainer']/div[15]/div/div/div/div/div/div[2]/div[4]/p/a</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.Polaris-Text--root_yj4ah.Polaris-Text--headingMd_lwjt4 > a.Polaris-Link_yj5sy.Polaris-Link--removeUnderline_adav6</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,13 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>34f70c05-28ee-4c2d-bb5d-f0d3c0b39388</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://apps.shopify.com/login/authenticate?shop=fresh-install-2023&amp;login_hint=nghia.nguyen%40apps-cyclone.com&amp;url=https%3A%2F%2Fapps.shopify.com%3Fst_campaign%3Dapp-modal-browse-all-apps%26st_source%3Dadmin%26utm_content%3Dcontextual%26utm_medium%3Dshopify%26utm_source%3Dadmin%26utm_campaign%3Dapp-modal-browse-all-apps</value>
+      <webElementGuid>7967c6d0-f323-4671-a70d-f5bc3eff8a8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>rel</name>
       <type>Main</type>
       <value>noopener noreferrer</value>
+      <webElementGuid>723ac576-1291-4ba8-9a48-370971f0b559</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +50,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_blank</value>
+      <webElementGuid>5e7917a1-3062-44ce-97fd-ed8c1e5f1037</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>data-polaris-unstyled</name>
       <type>Main</type>
       <value>true</value>
+      <webElementGuid>fa6e8224-53e9-44e8-aa05-557da029254b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>class</name>
       <type>Main</type>
       <value>Polaris-Link_yj5sy Polaris-Link--removeUnderline_adav6</value>
+      <webElementGuid>77d31d28-f2b5-43ce-acbb-dc5134ec073b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,6 +74,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Shopify App Store</value>
+      <webElementGuid>29184337-3486-4479-b500-e63500689fe6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;PolarisPortalsContainer&quot;)/div[15]/div[1]/div[@class=&quot;Polaris-Modal-Dialog__Container_13mbo&quot;]/div[1]/div[@class=&quot;Polaris-Modal-Dialog_n3qgo&quot;]/div[@class=&quot;Polaris-Modal-Dialog__Modal_2v9yc Polaris-Modal-Dialog--sizeLarge_61dxo&quot;]/div[@class=&quot;Polaris-Box_375yx&quot;]/div[@class=&quot;yyAHN&quot;]/p[@class=&quot;Polaris-Text--root_yj4ah Polaris-Text--headingMd_lwjt4&quot;]/a[@class=&quot;Polaris-Link_yj5sy Polaris-Link--removeUnderline_adav6&quot;]</value>
+      <webElementGuid>9211b161-a984-4c6d-9f03-a8f5c95b7086</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,6 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='PolarisPortalsContainer']/div[15]/div/div/div/div/div/div[2]/div[4]/p/a</value>
+      <webElementGuid>936e8cc0-6a31-4de1-98cb-3356186c62a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +98,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Shopify App Store')]</value>
+      <webElementGuid>94c86ae2-18df-42b3-bc42-0327661b50d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[9]/following::a[1]</value>
+      <webElementGuid>eb8714d6-15d3-4524-a309-adde5d69ae9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Increase sales and improve SEO with customer product reviews'])[1]/following::a[1]</value>
+      <webElementGuid>bc22f9e1-32d1-403c-a4ba-3ee6b5efb6f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Shopify App Store']/parent::*</value>
+      <webElementGuid>ba76f3a3-a97b-4dc4-bd30-d5b1b4df746a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +130,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://apps.shopify.com/login/authenticate?shop=fresh-install-2023&amp;login_hint=nghia.nguyen%40apps-cyclone.com&amp;url=https%3A%2F%2Fapps.shopify.com%3Fst_campaign%3Dapp-modal-browse-all-apps%26st_source%3Dadmin%26utm_content%3Dcontextual%26utm_medium%3Dshopify%26utm_source%3Dadmin%26utm_campaign%3Dapp-modal-browse-all-apps')]</value>
+      <webElementGuid>fa4033c7-45b0-45f9-b6b7-7384d1a1f12c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,5 +138,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/p/a</value>
+      <webElementGuid>02c1d4e5-0064-43bf-99ec-4a8c513393e1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
