@@ -6,15 +6,19 @@
    <elementGuidId>8a41b980-62b8-4bd1-982a-eb1eeb83e4a6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[6]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.Polaris-Button.Polaris-Button--primary.Polaris-Button--textAlignLeft.Polaris-Button--fullWidth</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[6]</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Add store' or . = 'Add store')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

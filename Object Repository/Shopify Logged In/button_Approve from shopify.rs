@@ -6,15 +6,19 @@
    <elementGuidId>e8360302-44ec-4587-aec3-f4ddceb89b53</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[@id='approve-charges-button']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#approve-charges-button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='approve-charges-button']</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'approve-charges-button' and @type = 'button' and (text() = 'Approve' or . = 'Approve')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

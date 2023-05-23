@@ -6,15 +6,19 @@
    <elementGuidId>1b39389f-fedb-4add-8f6e-fae1d985a01c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.Polaris-Button_r99lw.Polaris-Button--sizeLarge_61dxo</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='button']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Skip' or . = 'Skip')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
