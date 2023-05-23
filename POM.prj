@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
-   <description></description>
-   <name>POM</name>
+   <description>change project name</description>
+   <name>AMAI</name>
    <tag></tag>
    <UUID>b6c5d6db-e046-49ea-84b2-ac16b7bf68a9</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>E:\Automation Test\AMAI\POM.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
