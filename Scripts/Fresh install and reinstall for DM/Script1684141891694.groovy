@@ -140,4 +140,4 @@ Actual_Url = WebUI.getUrl()
 Expected_Url = (('https://fresh-install-' + getCurrentTimeStamp) + '.myshopify.com/admin/apps/discount-manager')
 
 WebUI.verifyMatch(Actual_Url, Expected_Url, false)
-
+//
