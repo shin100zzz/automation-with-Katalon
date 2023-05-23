@@ -29,13 +29,13 @@ WebUI.navigateToUrl('https://partners.shopify.com/1414033/stores')
 
 WebUI.setText(findTestObject('Shopify Partners/auth_input_Email_accountemail'), 'nghia.nguyen@apps-cyclone.com')
 
-WebUI.delay(5)
+WebUI.delay(15)
 
 WebUI.click(findTestObject('Shopify Partners/auth_button_Continue with Email'))
 
 WebUI.setEncryptedText(findTestObject('Shopify Partners/auth_input_Password_accountpassword'), 'AhE64sQdssMc8BVwQITPe59KP/N0lY/W')
 
-WebUI.delay(5)
+WebUI.delay(15)
 
 WebUI.click(findTestObject('Shopify Partners/auth_button_Log in_accountandpassword'))
 

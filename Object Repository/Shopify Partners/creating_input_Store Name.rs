@@ -6,12 +6,16 @@
    <elementGuidId>67289783-7b0c-4a58-af8a-2085116abee0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@id='PolarisTextField3']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#PolarisTextField3</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='PolarisTextField3']</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'PolarisTextField3' and @type = 'text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

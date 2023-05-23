@@ -6,12 +6,16 @@
    <elementGuidId>603be698-539d-4b84-8348-439e37e24953</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//main[@id='AppFrameMain']/div/div/div[2]/div/div/div/div[2]/fieldset/ul/li[2]/div/div/label/span/span/span</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>span.Polaris-RadioButton__Backdrop.Polaris-RadioButton--hover</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//main[@id='AppFrameMain']/div/div/div[2]/div/div/div/div[2]/fieldset/ul/li[2]/div/div/label/span/span/span</value>
+         <key>BASIC</key>
+         <value>id(&quot;AppFrameMain&quot;)/div[@class=&quot;Polaris-Frame__Content&quot;]/div[@class=&quot;Polaris-Page&quot;]/div[@class=&quot;Polaris-Page--divider&quot;]/div[@class=&quot;Polaris-Layout&quot;]/div[@class=&quot;Polaris-Layout__Section&quot;]/div[@class=&quot;Polaris-Card&quot;]/div[@class=&quot;Polaris-Card__Section Polaris-Card__Section--subdued&quot;]/fieldset[@class=&quot;Polaris-AlphaStack Polaris-AlphaStack--fieldsetReset&quot;]/ul[@class=&quot;Polaris-AlphaStack Polaris-AlphaStack--listReset&quot;]/li[2]/div[@class=&quot;Polaris-Bleed&quot;]/div[1]/label[@class=&quot;Polaris-Choice&quot;]/span[@class=&quot;Polaris-Choice__Control&quot;]/span[@class=&quot;Polaris-RadioButton&quot;]/span[@class=&quot;Polaris-RadioButton__Backdrop Polaris-RadioButton--hover&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

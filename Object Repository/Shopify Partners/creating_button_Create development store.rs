@@ -6,15 +6,19 @@
    <elementGuidId>05ff03b8-4b83-4321-99ef-e937bf44e023</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.Polaris-Button.Polaris-Button--primary</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Create development store' or . = 'Create development store')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

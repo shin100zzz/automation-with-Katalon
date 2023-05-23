@@ -6,12 +6,16 @@
    <elementGuidId>7e35730b-d88c-4b9b-9797-099fb7bb1e72</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[@name='commit']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button[name=&quot;commit&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@name='commit']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @name = 'commit' and (text() = 'Log in' or . = 'Log in')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
